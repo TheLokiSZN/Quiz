@@ -1,0 +1,2 @@
+var printHighschores
+// clear highschores
