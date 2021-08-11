@@ -1,0 +1,43 @@
+.highscores {
+float: left;
+font-family: 'Roboto', sans-serif;
+font-size: xx-large;
+}
+
+.timer {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+.wrapper {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 600px;
+    height: 600px;
+    text-align: center;
+}
+
+button,
+#start,
+.reset-button,
+.previous-page {
+    position: relative;
+    font-size: xx-large;
+    color: white;
+    background-color: #660000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.h1,
+.h2,
+.h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+li {
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+}

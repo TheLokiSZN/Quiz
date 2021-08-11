@@ -7,7 +7,7 @@ var startBtn = document.querySelector("#start");
 var holdTimer = 0;
 var secondsRemaining = 80;
 var timePenalty = 10;
-var ulCreate = document.createElement("ul");
+var ulCreate = document.createElement("ol");
 
 startBtn.addEventListener("click", function () {
     if (holdTimer === 0) {
@@ -77,7 +77,7 @@ function allDone() {
     
     startScreen.appendChild(createH1);
 
-    var createH2 = document.createElement("p");
+    var createH2 = document.createElement("h2");
     createH2.setAttribute("id", "createH2");
 
     startScreen.appendChild(createH2);
