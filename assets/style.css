@@ -41,3 +41,20 @@ li {
     font-size: xx-large;
     font-family: 'Roboto', sans-serif;
 }
+
+input {
+    width: 150px;
+    height: 45px;
+    margin-bottom: 25px;
+    padding-bottom: 3px;
+}
+
+button {
+    margin-left: 12px;
+    height: 60px;
+}
+
+a {
+    color: #660000;
+    text-decoration: none;
+}

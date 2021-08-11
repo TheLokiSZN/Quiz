@@ -113,7 +113,7 @@ function allDone() {
     createSubmit.addEventListener("click", function () {
         var initials = createInput.value;
         if (initials === null) {
-            console.log("No value entered!");
+            alert("No value entered!");
         } else {
             var finalScore = {
                 initials: initials,
@@ -133,5 +133,4 @@ function allDone() {
             window.location.replace("./highscores.html")
         }
     })
-
 }   
